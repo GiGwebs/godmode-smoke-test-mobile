@@ -1,0 +1,11 @@
+name: Deploy (EAS)
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    uses: GiGwebs/workflows/.github/workflows/deploy-eas.yml@main
+    secrets:
+      EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}

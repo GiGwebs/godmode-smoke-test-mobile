@@ -24,6 +24,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fa088138-99d6-4a67-bafb-33c16542afc0"
+      }
+    },
+    "owner": "gigwebs"
   }
 }
